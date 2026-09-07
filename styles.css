@@ -149,7 +149,7 @@ h1 {
   inset: -3%;
   background:
     linear-gradient(rgba(20, 32, 47, .1), rgba(20, 32, 47, .32)),
-    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=85') center/cover no-repeat;
+    url('3912-lighthouse.png') center/cover no-repeat;
   transform: scale(1.05);
   animation: heroDrift 14s ease-out forwards;
 }
