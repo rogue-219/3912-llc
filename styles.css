@@ -198,6 +198,8 @@ h1 {
   padding: 34px 0;
   border-bottom: 1px solid var(--line);
   transition: transform 220ms ease, background 220ms ease, padding 220ms ease;
+  color: inherit;
+text-decoration: none;
 }
 
 .project-card:hover {
