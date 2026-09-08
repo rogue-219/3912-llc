@@ -283,11 +283,12 @@ h1 {
 }
 .contact-copy { color: rgba(255,255,255,.62); margin-bottom: 8px; }
 .contact-link {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid var(--gold);
-  padding-bottom: 3px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 3px;
+    margin-right: 22px;
 }
 .footer-row {
   display: flex;
@@ -337,6 +338,12 @@ h1 {
   .contact-section { padding-left: 6vw; padding-right: 6vw; }
   .project-card { grid-template-columns: 42px 1fr 26px; gap: 12px; }
   .footer-row { flex-direction: column; }
+}
+.contact-link {
+    display: block;
+    width: fit-content;
+    margin-right: 0;
+    margin-bottom: 12px;
 }
 
 @media (prefers-reduced-motion: reduce) {
